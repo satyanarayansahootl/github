@@ -1,0 +1,73 @@
+/* Desktop view */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media(max-width:420px) {}
+
+/* Mobile View */
+@media (max-width:620px) {
+    .hero {
+        height: auto;
+    }
+
+    .sec-heading {
+        padding-left: 12px;
+    }
+
+    .sec-heading h4 {
+        font-size: 20px;
+    }
+
+    .welcome-intro h1 {
+        font-size: 23px;
+    }
+
+    .welcome-intro ul li p {
+        font-size: 14px;
+    }
+
+    .footer-bg {
+        height: auto;
+    }
+
+    .quizbanner::-webkit-scrollbar {
+        overflow-y: scroll;
+        width: 0;
+    }
+
+    .free-quiz-heading {
+        font-size: 12px;
+    }
+
+    .blog-post {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .counter-scroll {
+        overflow-x: scroll;
+    }
+
+    .counter-scroll::-webkit-scrollbar {
+        width: 0;
+    }
+}
+
+@media (max-width:375px) {}
+
+@media (max-width:992px) {
+    .hero {
+        height: auto;
+    }
+}
